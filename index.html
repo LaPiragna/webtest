@@ -10,10 +10,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Mali:wght@200&display=swap" rel="stylesheet"> 
     </head>
     <body>
-
         <div class="nav-container">
             <h2>"page's nav"</h2>
-            <nav class="nav" id="nav" role="navigation">
+            <nav class="nav" id="nav">
                 <ul>
                     <li>
                         <cite><a aria-label="twitter" target="_blank" href="https://twitter.com/gonza_varela1"><i class="fab fa-twitter" aria-hidden="false"></i>Twitter</a></cite>
@@ -48,18 +47,12 @@
                     </figcaption>
                 </figure>
             </div>
-
-            <div class="audio-container">
-                <audio controls class="holyCloud">
-                    <source src="holyCloud.mp3" type="audio/mp3">
-                        <caption>Holy Cloud - tenno</caption>
-                </audio>
-                <audio controls class="Within">
-                    <source src="Within.mp3" type="audio/mp3">
-                    <caption>Within - Enluv</caption>
-                </audio>
-            </div>
-            <section>
+            <section class="quiz-container">
+                <h3>'Quiz section'</h3>
+                <h6>holy cloud - tenno</h6>
+                <audio controls class="holyCloud"><source src="holyCloud.mp3" type="audio/mp3"></audio>
+                <h6>within - enluv</h6>
+                <audio controls class="Within"><source src="Within.mp3" type="audio/mp3"></audio>
                 <form action="https://lapiragna.github.io/webtest/">
                     <fieldset>
                         <legend>Which song did you like more?</legend>
@@ -70,15 +63,13 @@
                 </form>
             </section>
         </div>
-
         <aside>
-            <h2>"page's aside"</h2>
             <section>
+                <h2>'Progress label test'</h2>
                 <meter min="0" max="100" value="22"></meter><br>
                 <progress value="4" max="100"></progress>
             </section>
         </aside>
-
         <hr>
         <div class="footer">
             <h2>"page's footer"</h2>
