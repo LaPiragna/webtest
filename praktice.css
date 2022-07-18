@@ -1,0 +1,49 @@
+.body
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-container
+{
+    width: 100%;
+    display: flex;
+}
+
+#audio-container
+{
+    display: flex;
+}
+
+.song1, .song2, .song3
+{
+    width: 35%;
+}
+
+img
+{
+    width: 100%;
+}
+
+footer
+{
+    text-align: center;
+}
+
+form
+{
+    display: flex;
+}
+
+fieldset
+{
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+}
+
+button
+{
+    margin: 4% 0 3.5% 0;
+}
