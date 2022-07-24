@@ -5,15 +5,14 @@ html
     background: #111111;
 }
 
-i
+p
 {
-    font-size: 20px;
+    margin: 0;
 }
 
 a
 {
     text-decoration: none;
-    font-size: 20px;
     color: hsl(10, 90%, 15%);
 }
 
@@ -49,18 +48,11 @@ hr
 {
     height: 100%;
     width: 75%;
-    margin: -20px auto auto auto;
     border-radius: 10px;
     text-align: center;
+    margin: auto;
     padding: 0.8% 1% 1% 1%;
-    color: rgb(230,230,230);
     background: linear-gradient(180deg, hsl(10, 90%, 15%), #444444);
-}
-
-/*HEADER*/
-header h1
-{
-    text-align: center;
 }
 
 /*NAV*/
@@ -70,24 +62,31 @@ header h1
     width: 100%;
 }
 
-#nav-container h2
-{
-    text-align: center;
-}
-
 .lista-nav
 {
-    width: 100%;
-    display: inline-block;
-    list-style: outside none;
     margin-left: 0px;
     padding-left: 0px;
-    text-align: center;
 }
 
 .lista-nav li
 {
     display: inline-block;
+}
+
+.lista-nav a
+{
+    color: #adadad;
+}
+
+.lista-nav a:hover
+{
+    color: #101010;
+}
+
+
+.lista-nav a:active
+{
+    color: #880000;
 }
 
 .markers-container
@@ -217,4 +216,10 @@ p:last-child
     font-size: 3vw;
     margin-bottom: 1%;
     color: hsl(0,25%,0%);
+}
+
+.next
+{
+    text-align: right;
+    font-size: 15px;
 }

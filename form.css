@@ -1,0 +1,32 @@
+html
+{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: #111111;
+}
+
+.body
+{
+    height: 70%;
+    width: 75%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5% auto;
+    padding: 0.8% 1% 1% 1%;
+    background: linear-gradient(180deg, hsl(10, 90%, 15%), #444444);
+}
+
+.previous
+{
+	text-align: left;
+}
+
+.previous a
+{
+	color: #111111;
+}
+
+.previous a:hover
+{
+	color: #dddddd;
+}
