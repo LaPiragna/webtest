@@ -67,12 +67,13 @@ select
 
 input
 {
+	margin-top: 2%;
 	height: 2em;
 	width: 40%;
-	background-color: #111;
+	background-color: hsl(5, 50%, 8.5%);
 	color: #dddddd;
 	border-style: none;
-	border-radius: 4px;
+	border-radius: 2px;
 	font-size: 1rem;
 }
 
