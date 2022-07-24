@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Praktice</title>
+        <script src="https://kit.fontawesome.com/481384bf64.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
-        <title>Praktice</title>
         <link rel="stylesheet" href="praktice.css">
-        <script src="https://kit.fontawesome.com/481384bf64.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Mali:wght@200&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="body">
@@ -19,11 +19,16 @@
                     <h2>'Page nav'</h2>
                     <ul class="lista-nav">
                         <li><a class="a" href="https://www.instagram.com/ppiragna/" target="_blank" rel="noreferrer noopener"><i class="fa fa-instagram"></i> Instagram</a></li>
+
                         <li><a class="a" href="https://web.whatsapp.com/" target="_blank" rel="noreferrer noopener"><i class="fa fa-whatsapp"></i> WhatsApp</a></li>
+
                         <li><a class="a" href="https://twitter.com/gonza_varela1" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
+
                         <li><a class="a" href="https://www.linkedin.com/in/gonzalo-varela-gva2000/" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
                         <li><a class="a" href="https://github.com/LaPiragna" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a></li>
+
                         <li><a class="a" href="https://www.freecodecamp.org/piragna" target="_blank" rel="noreferrer noopener"><i class="fa fa-free-code-camp"></i> Freecodecamp</a></li>
+
                         <li><a class="a" href="https://fontawesome.com/" target="_blank" rel="noreferrer noopener"><i class="fa fa-font-awesome"></i> Font Awesome</a></li>
                     </ul>
                     <div class='markers-container'>
@@ -48,61 +53,39 @@
                     <div id="img-container">
                         <figure>
                             <img src="blackoucka-bordeaux.png" alt=''>
-                            <figcaption>1st image</figcaption>
+                            <figcaption>'1st image'</figcaption>
                         </figure>
                         <figure>
                             <img src="experimentouka.png" alt=''>
-                            <figcaption>2nd image</figcaption>
+                            <figcaption>'2nd image'</figcaption>
                         </figure>
                         <figure>
                             <img src="desapareció.png" alt=''>
-                            <figcaption>3rd image</figcaption>
+                            <figcaption>'3rd image'</figcaption>
                         </figure>
                     </div>
+                    <hr class="img-audio-hr">
                     <div id="audio-container">
                         <div class="song1">
-                            <h4>1st song</h4>
+                            <h4>'1st song'</h4>
                             <audio controls>
                                 <source src="Spark.mp3" type="audio/mp3">
                             </audio>      
                         </div>
                         <div class="song2">
-                            <h4>2nd song</h4>
+                            <h4>'2nd song'</h4>
                             <audio controls>
                                 <source src="A-Warrior's-Life-by-Vens-Adams.mp3" type="audio/mp3">
                             </audio>
                         </div>
                         <div class="song3">
-                            <h4>3d song</h4>
+                            <h4>'3rd song'</h4>
                             <audio controls>
-                                <source src="Vindu-Reiwa.mp3" type="audio/mp3">
+                                <source src="Within.mp3" type="audio/mp3">
                             </audio>
                         </div> 
                     </div>
-                    <div id="form-container">
-                        <form>
-                                <fieldset>
-                                <legend>'Img quiz'</legend>
-                                <label for="img1">image 1</label>
-                                <input id="img1" value="img1" type="radio" name="images" required>
-                                <label for="img2">image 2</label>
-                                <input id="img2" value="img2" type="radio" name="images">
-                                <label for="img3">image 3</label>
-                                <input value="img3" id="img3" type="radio" name="images">
-                            </fieldset>
-                            <fieldset>
-                                <legend>'Song quiz'</legend>
-                                <label for="song1">song 1</label>
-                                <input id="song1" value="song1" type="radio" name="songs" required>
-                                <label for="song2">song 2</label>
-                                <input id="song2" value="song2" type="radio" name="songs">
-                                <label for="song3">song 3</label>
-                                <input id="song3" value="song3" type="radio" name="songs">
-                            </fieldset>
-                            <button type="submit">Submite</button>
-                        </form>
-                    </div>
-                </main>
+                    </main>
             <hr>
             <div id="footer-container">
                 <footer>
@@ -110,9 +93,9 @@
                     <ul>
                         <li><a class="a" href="#nav-container">'Page nav'</a></li>
                         <li><a class="a" href="#img-container">'Page content'</a></li>
-                        <li><a class="a" href="#form-container">'Page forms'</a></li>
                     </ul>
-                    &copy; 2022 piragna 42963991 29/09/00
+                   07/24/2022<br><br><br> 
+                   <p>piragna</p> 
                 </footer>
             </div>
         </div>
@@ -157,8 +140,8 @@
     -legend
     -form
     -label
-    -input (type, name, value, required)
-    -audio (controls, )
+    -input (type[text, password, number, email], name, value, required)
+    -audio (controls)
     -figure
     -img (src)
     -source (src)
@@ -167,4 +150,6 @@
     -summary
     -blockquote
     -a (href)
+    -select
+    -option
 -->
