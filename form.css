@@ -43,6 +43,7 @@ textarea
 .previous a
 {
 	color: #111111;
+    text-decoration: none;
 }
 
 .previous a:hover
