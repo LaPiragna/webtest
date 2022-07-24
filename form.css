@@ -3,6 +3,7 @@ html
     font-family: 'Roboto', sans-serif;
     height: 90vh;
     background: #111111;
+    color: #aaa;
 }
 
 .body
@@ -27,6 +28,11 @@ textarea
 	background-color: #111111;
 	border-style: none;
 	border-radius: 6px;
+	font-size: 1.1em;
+	min-width: 500px;
+	max-width: 600px;
+	min-height: 100px;
+	max-height: 150px;
 }
 
 .previous
@@ -49,14 +55,25 @@ textarea
 	color: #eeeeee;
 }
 
+select
+{
+	height: 1.8em;
+	font-size: 0.9rem;
+	background-color: #111111;
+	border-style: none;
+	color: #aaaaaa;
+	border-radius: 4px;
+}
+
 input
 {
-	height: 40%;
+	height: 2em;
 	width: 40%;
 	background-color: #111;
 	color: #dddddd;
 	border-style: none;
 	border-radius: 4px;
+	font-size: 1rem;
 }
 
 input:active
