@@ -1,10 +1,46 @@
+html
+{
+    background: linear-gradient(180deg, hsl(10, 90%, 15%), #444444);
+}
+
+i
+{
+    font-size: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: hsl(10, 90%, 15%);
+}
+
+a:visited
+{
+    color: #101010;
+}
+
+a:hover
+{
+    color: white;
+}
+
+a:active
+{
+    color: #990000;
+}
+
+/*BODY*/
 .body
 {
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 0% 5% 5% 5%;
+    color: rgb(230,230,230);
 }
+/*BODY*/
+
 /*HEADER*/
 header h1
 {
@@ -14,13 +50,95 @@ header h1
 /*NAV*/
 #nav-container 
 {
-    text-align: right;
+    display: inline-block;
+    width: 100%;
 }
 
-.body #nav-container nav ul
+#nav-container h2
 {
-    list-style: outside none;
+    text-align: center;
+}
+
+.lista-nav
+{
+    width: 100%;
     display: inline-block;
+    list-style: outside none;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.lista-nav li
+{
+    display: inline-block;
+}
+
+.markers-container
+{
+    width: 30%;
+    height: 80%;
+    margin: auto;
+}
+
+.marker1, .marker2, .marker3
+{
+    height: 25px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 1.9%;
+    margin-bottom: 1.9%;
+}
+
+.cuerpo1
+{
+    width: 45%;
+    height: 100%;     
+    margin-left: 18%;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.45));
+    display: inline-block;
+}
+
+.cuerpo2
+{
+    width: 45%;
+    height: 100%;     
+    margin-left: 18%;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
+    display: inline-block;
+}
+
+.cuerpo3
+{
+    width: 45%;
+    height: 100%;     
+    margin-left: 18%;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 1.0));
+    display: inline-block;
+}
+
+.tapa
+{
+    width: 1%;
+    margin-left: 24%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 1.0));
+    display: inline-block;
+}
+
+.marker1
+{
+    background: linear-gradient(rgba(100, 100, 100, 0.1), rgba(0, 0, 0, 1.0) 40%, rgba(30, 30, 30, 0.5) 100%);
+}
+
+.marker2
+{
+    background: linear-gradient(rgba(100, 100, 100, 0.05), rgba(0, 0, 0, 1.0) 40%, rgba(30, 30, 30, 0.150) 100%);
+}
+
+.marker3
+{
+    background: linear-gradient(rgba(100, 100, 100, 0.1), rgba(0, 0, 0, 1.0) 40%, rgba(100, 100, 100, 0.150) 90.9%);
 }
 
 /*NAV*/
@@ -45,6 +163,7 @@ img
     width: 100%;
 }
 
+/*FOOTER*/
 footer
 {
     text-align: center;
@@ -64,3 +183,4 @@ button
 {
     margin: 4% 0 3.5% 0;
 }
+/*FOOTER*/
