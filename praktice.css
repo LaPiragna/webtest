@@ -3,6 +3,7 @@ html
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     background: #111111;
+    color: #aaa;
 }
 
 p
@@ -13,22 +14,17 @@ p
 a
 {
     text-decoration: none;
-    color: hsl(10, 90%, 15%);
-}
-
-a:visited
-{
-    color: #101010;
+    color: hsl(0, 100%, 0%);
 }
 
 a:hover
 {
-    color: white;
+    color: #ee1111;
 }
 
 a:active
 {
-    color: #990000;
+    color: #eeeeee;
 }
 
 hr
@@ -42,6 +38,9 @@ hr
     margin-top: 4%;
     opacity: 33%;
 }
+
+/*HEADER*/
+
 
 /*BODY*/
 .body
@@ -80,14 +79,15 @@ hr
 
 .lista-nav a:hover
 {
-    color: #101010;
+    color: #111111;
 }
-
 
 .lista-nav a:active
 {
     color: #880000;
 }
+
+/*MAIN*/
 
 .markers-container
 {
@@ -200,7 +200,7 @@ audio
 
 
 /*FOOTER*/
-.footer-container
+#footer-container
 {
     text-align: center;
 }
@@ -209,13 +209,6 @@ footer ul
 {
     padding: 0;
     list-style: outside none;
-}
-
-p:last-child
-{
-    font-size: 3vw;
-    margin-bottom: 1%;
-    color: hsl(0,25%,0%);
 }
 
 .next
