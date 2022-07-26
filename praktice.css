@@ -175,12 +175,16 @@ hr
     width: 100%;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
 
 figure
 {
     margin: 0.2%;
-    width: 100%;
+    width: 30%;
 }
 
 figcaption
@@ -193,6 +197,20 @@ img
     max-width: 300px;
     width: 100%;
     border-radius: 5px;
+}
+
+@media (max-width: 870px)
+{
+    figure
+    {
+        width: 100%;
+        margin: 2% auto;
+    }
+
+    .image1
+    {
+        transform: rotate(180deg);
+    }
 }
 
 .image1
